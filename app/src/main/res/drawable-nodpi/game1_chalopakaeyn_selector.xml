@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/game1_chalo_pakae_butt"
+       android:state_enabled="true"/>
+    <item android:drawable="@drawable/game1_chalo_pakae_fade"
+       android:state_enabled="false"/>
+
+</selector>

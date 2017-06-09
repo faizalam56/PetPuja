@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abdullah.petpuja"
+    android:versionCode="1"
+    android:versionName="Verson 1.0 Beta">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+       >
+        <activity
+            android:name="com.abdullah.petpuja.PetPuja"
+             android:configChanges="orientation"
+             android:screenOrientation="landscape"
+             android:label="@string/app_name" >
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+           
+        </activity>
+        <activity android:name="com.abdullah.petpuja.Splash" android:screenOrientation="landscape"></activity>
+        <activity android:name="com.abdullah.activities.StoryPart_1" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.StoryPart_2" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.StoryPart_5" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.Game2" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.StoryPart_3" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.Game3" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.StoryPart_6" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.StoryPart_7" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.Module2Link1" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.StoryPart9" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.StoryPart12" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.StoryPartEnd" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.petpuja.VedioPlay" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.petpuja.VideoPlayNew" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.StoryPart_4" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.DOB" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.Game4" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.game1.Scene1Activity" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.Game1" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.zmq.game1.Scene1Activity" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.abdullah.activities.Login" android:screenOrientation="landscape" android:configChanges="screenSize"></activity>
+        <activity android:name="com.aasif.example.modulesession.VeiwReport" android:configChanges="screenSize" android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

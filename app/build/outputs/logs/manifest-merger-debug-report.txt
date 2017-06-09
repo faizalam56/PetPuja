@@ -1,0 +1,251 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+application
+ADDED from AndroidManifest.xml:15:5
+MERGED from com.android.support:support-v4:20.0.0:17:5
+	android:label
+		ADDED from AndroidManifest.xml:17:9
+	android:icon
+		ADDED from AndroidManifest.xml:16:9
+	android:largeHeap
+		ADDED from AndroidManifest.xml:18:9
+activity#com.abdullah.petpuja.PetPuja
+ADDED from AndroidManifest.xml:20:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:23:14
+	android:label
+		ADDED from AndroidManifest.xml:24:14
+	android:configChanges
+		ADDED from AndroidManifest.xml:22:13
+	android:name
+		ADDED from AndroidManifest.xml:21:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:25:15
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:26:17
+	android:name
+		ADDED from AndroidManifest.xml:26:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:27:17
+	android:name
+		ADDED from AndroidManifest.xml:27:27
+activity#com.abdullah.petpuja.Splash
+ADDED from AndroidManifest.xml:31:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:31:62
+	android:configChanges
+		ADDED from AndroidManifest.xml:31:100
+	android:name
+		ADDED from AndroidManifest.xml:31:19
+activity#com.abdullah.activities.StoryPart_1
+ADDED from AndroidManifest.xml:32:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:32:70
+	android:configChanges
+		ADDED from AndroidManifest.xml:32:108
+	android:name
+		ADDED from AndroidManifest.xml:32:19
+activity#com.abdullah.activities.StoryPart_2
+ADDED from AndroidManifest.xml:33:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:33:70
+	android:configChanges
+		ADDED from AndroidManifest.xml:33:108
+	android:name
+		ADDED from AndroidManifest.xml:33:19
+activity#com.abdullah.activities.StoryPart_5
+ADDED from AndroidManifest.xml:34:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:34:70
+	android:configChanges
+		ADDED from AndroidManifest.xml:34:108
+	android:name
+		ADDED from AndroidManifest.xml:34:19
+activity#com.abdullah.activities.Game2
+ADDED from AndroidManifest.xml:35:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:35:64
+	android:configChanges
+		ADDED from AndroidManifest.xml:35:102
+	android:name
+		ADDED from AndroidManifest.xml:35:19
+activity#com.abdullah.activities.StoryPart_3
+ADDED from AndroidManifest.xml:36:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:36:70
+	android:configChanges
+		ADDED from AndroidManifest.xml:36:108
+	android:name
+		ADDED from AndroidManifest.xml:36:19
+activity#com.abdullah.activities.Game3
+ADDED from AndroidManifest.xml:37:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:37:64
+	android:configChanges
+		ADDED from AndroidManifest.xml:37:102
+	android:name
+		ADDED from AndroidManifest.xml:37:19
+activity#com.abdullah.activities.StoryPart_6
+ADDED from AndroidManifest.xml:38:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:38:70
+	android:configChanges
+		ADDED from AndroidManifest.xml:38:108
+	android:name
+		ADDED from AndroidManifest.xml:38:19
+activity#com.abdullah.activities.StoryPart_7
+ADDED from AndroidManifest.xml:39:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:39:70
+	android:configChanges
+		ADDED from AndroidManifest.xml:39:108
+	android:name
+		ADDED from AndroidManifest.xml:39:19
+activity#com.abdullah.activities.Module2Link1
+ADDED from AndroidManifest.xml:40:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:40:71
+	android:configChanges
+		ADDED from AndroidManifest.xml:40:109
+	android:name
+		ADDED from AndroidManifest.xml:40:19
+activity#com.abdullah.activities.StoryPart9
+ADDED from AndroidManifest.xml:41:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:41:69
+	android:configChanges
+		ADDED from AndroidManifest.xml:41:107
+	android:name
+		ADDED from AndroidManifest.xml:41:19
+activity#com.abdullah.activities.StoryPart12
+ADDED from AndroidManifest.xml:42:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:42:70
+	android:configChanges
+		ADDED from AndroidManifest.xml:42:108
+	android:name
+		ADDED from AndroidManifest.xml:42:19
+activity#com.abdullah.activities.StoryPartEnd
+ADDED from AndroidManifest.xml:43:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:43:71
+	android:configChanges
+		ADDED from AndroidManifest.xml:43:109
+	android:name
+		ADDED from AndroidManifest.xml:43:19
+activity#com.abdullah.petpuja.VedioPlay
+ADDED from AndroidManifest.xml:44:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:44:65
+	android:configChanges
+		ADDED from AndroidManifest.xml:44:103
+	android:name
+		ADDED from AndroidManifest.xml:44:19
+activity#com.abdullah.petpuja.VideoPlayNew
+ADDED from AndroidManifest.xml:45:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:45:68
+	android:configChanges
+		ADDED from AndroidManifest.xml:45:106
+	android:name
+		ADDED from AndroidManifest.xml:45:19
+activity#com.abdullah.activities.StoryPart_4
+ADDED from AndroidManifest.xml:46:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:46:70
+	android:configChanges
+		ADDED from AndroidManifest.xml:46:108
+	android:name
+		ADDED from AndroidManifest.xml:46:19
+activity#com.abdullah.activities.DOB
+ADDED from AndroidManifest.xml:47:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:47:62
+	android:configChanges
+		ADDED from AndroidManifest.xml:47:100
+	android:name
+		ADDED from AndroidManifest.xml:47:19
+activity#com.abdullah.activities.Game4
+ADDED from AndroidManifest.xml:48:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:48:64
+	android:configChanges
+		ADDED from AndroidManifest.xml:48:102
+	android:name
+		ADDED from AndroidManifest.xml:48:19
+activity#com.abdullah.game1.Scene1Activity
+ADDED from AndroidManifest.xml:49:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:49:68
+	android:configChanges
+		ADDED from AndroidManifest.xml:49:106
+	android:name
+		ADDED from AndroidManifest.xml:49:19
+activity#com.abdullah.activities.Game1
+ADDED from AndroidManifest.xml:50:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:50:64
+	android:configChanges
+		ADDED from AndroidManifest.xml:50:102
+	android:name
+		ADDED from AndroidManifest.xml:50:19
+activity#com.zmq.game1.Scene1Activity
+ADDED from AndroidManifest.xml:51:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:51:63
+	android:configChanges
+		ADDED from AndroidManifest.xml:51:101
+	android:name
+		ADDED from AndroidManifest.xml:51:19
+activity#com.abdullah.activities.Login
+ADDED from AndroidManifest.xml:52:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:52:64
+	android:configChanges
+		ADDED from AndroidManifest.xml:52:102
+	android:name
+		ADDED from AndroidManifest.xml:52:19
+activity#com.aasif.example.modulesession.VeiwReport
+ADDED from AndroidManifest.xml:53:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:53:77
+	android:configChanges
+		ADDED from AndroidManifest.xml:53:115
+	android:name
+		ADDED from AndroidManifest.xml:53:19

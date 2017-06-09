@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/game1_background" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="39dp"
+        >
+
+        <Button
+            android:id="@+id/gheebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ghee"
+            android:enabled="false"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="81dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginRight="375dp"
+        android:background="@drawable/thali"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="45dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="55dp"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:weightSum="2"
+                android:layout_weight="0.342"
+                android:layout_gravity="center_horizontal">
+
+                <ToggleButton
+                    android:id="@+id/toggleButton001"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="62dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/sag_selector"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_weight="1" />
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton002"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="55dp"
+                    android:background="@drawable/game1_dal_selector"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="3"
+                android:layout_weight="0.263">
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton003"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/mix_veg_selector"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_weight="1" />
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton004"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/potato_selector"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_weight="1" />
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton005"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/game1_eggs_selector"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="2"
+                android:layout_weight="0.395">
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton006"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="11dp"
+                    android:background="@drawable/roti_selector"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_weight="1" />
+
+                <ToggleButton
+                    android:id="@+id/ToggleButton007"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rice_selector"
+                    android:text="ToggleButton"
+                    android:textOff=""
+                    android:textOn=""
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.zmq.game1.PlateSurfaceView
+        android:id="@+id/plateSurfaceView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_marginRight="75dp"
+        android:layout_marginTop="75dp" />
+
+    <Button
+        android:id="@+id/chalopakae"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/RelativeLayout1"
+        android:layout_alignRight="@+id/plateSurfaceView1"
+        android:layout_marginRight="74dp"
+        android:background="@drawable/game1_aage_badhe"
+        android:visibility="invisible" />
+
+</RelativeLayout>

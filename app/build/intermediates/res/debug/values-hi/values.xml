@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/zmq162/Asif_Works/AndroidStudioWorkSpace%20Asif/Pet%20Puja/app/src/main/res/values-hi/arrays.xml -->
+    <eat-comment/>
+    <string-array name="months_values">
+        <item>सोम</item>
+        <item>सोम</item>
+        <item>सोम</item>
+        <item>सोम</item>
+        <item>सोम</item>
+        <item>सोम</item>
+        <item>सोम</item>
+        <item>सोम</item>
+        <item>सोम</item>
+        <item>सोम</item>
+        <item>सोम</item>
+        <item>सोम</item>
+    </string-array>
+</resources>

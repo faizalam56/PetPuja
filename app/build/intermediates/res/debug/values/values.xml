@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/zmq162/Asif_Works/AndroidStudioWorkSpace%20Asif/Pet%20Puja/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="questionArray">
+        <item>क्या बिना दांत का बच्चा खाना खा सकता है?</item>
+        <item>can this child eat ?</item>
+        <item/>
+    </string-array>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/home/zmq162/Asif_Works/AndroidStudioWorkSpace%20Asif/Pet%20Puja/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/home/zmq162/Asif_Works/AndroidStudioWorkSpace%20Asif/Pet%20Puja/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="age">बच्चे की आयु</string>
+    <string name="app_name">पेट पूजा</string>
+    <string name="checkDate">कृपया बताई गई तिथि की दोबारा जाच कर ले !</string>
+    <string name="closeAppHeading">कृपया ध्‍यान दे !</string>
+    <string name="closeAppString">क्या आप पेट पूजा बंद करना चाहते है ?</string>
+    <string name="day">दिन</string>
+    <string name="dhaneaadString">पेट पूजा को समझने के लिए धनवाद !!</string>
+    <string name="haanString">हाँ</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="instruction">Instructions</string>
+    <string name="instruction2">खाना मीसा हुआ और मुलायम है इसलिए बच्चा खा सकता है|</string>
+    <string name="jamantithi">जन्म तिथि</string>
+    <string name="month">महीने</string>
+    <string name="nahiString">नही</string>
+    <string name="videoString">क्या आप इसे दोबारा देखना चाहते हैं ?</string>
+    <string name="year">साल</string>
+</resources>

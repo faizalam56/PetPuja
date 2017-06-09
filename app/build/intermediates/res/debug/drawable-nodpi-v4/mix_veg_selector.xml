@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+  <item android:drawable="@drawable/mix_veghalf"
+       android:state_checked="true"
+       android:state_enabled="false"/>
+  <item android:drawable="@drawable/mix_veghalf"
+       android:state_checked="true"/>
+   <item android:drawable="@drawable/mix_veg_faded"
+       android:state_checked="false"
+       android:state_enabled="false"/>
+  <item android:drawable="@drawable/mix_veg"
+       android:state_checked="false"/>
+
+</selector>
+<!-- From: file:/home/zmq162/Asif_Works/AndroidStudioWorkSpace%20Asif/Pet%20Puja/app/src/main/res/drawable-nodpi/mix_veg_selector.xml -->

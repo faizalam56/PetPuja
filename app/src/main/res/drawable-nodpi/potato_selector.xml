@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+  <item android:drawable="@drawable/potatohalf"
+       android:state_checked="true"
+       android:state_enabled="false"/>
+  <item android:drawable="@drawable/potatohalf"
+       android:state_checked="true"/>
+   <item android:drawable="@drawable/potato_faded"
+       android:state_checked="false"
+       android:state_enabled="false"/>
+  <item android:drawable="@drawable/potato"
+       android:state_checked="false"/>
+  
+
+</selector>
